@@ -1,0 +1,14 @@
+freeagent:
+    domain: exampleltd.freeagent.com
+    username: yourusername
+    password: yourpassword
+
+# users:
+# 	# Codebase Name: Freeagent User ID
+#     Bill: 1001
+#     Bob: 1002
+
+# projects:
+# 	# Project Friendly Name: Freeagent Project ID
+#     project1: 109655
+#     project2: 118432

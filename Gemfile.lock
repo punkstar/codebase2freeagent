@@ -1,0 +1,27 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (3.0.0.beta)
+      activesupport (= 3.0.0.beta)
+    activeresource (3.0.0.beta)
+      activemodel (= 3.0.0.beta)
+      activesupport (= 3.0.0.beta)
+    activesupport (3.0.0.beta)
+      builder (~> 2.1.2)
+      i18n (~> 0.3.0)
+      memcache-client (~> 1.7.5)
+      tzinfo (~> 0.3.16)
+    bigdecimal (1.1.0)
+    builder (2.1.2)
+    freeagent_api (0.3.1)
+      activeresource (< 3.0.0.beta1)
+    i18n (0.3.7)
+    memcache-client (1.7.8)
+    tzinfo (0.3.33)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bigdecimal
+  freeagent_api
