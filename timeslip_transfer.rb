@@ -141,7 +141,7 @@ CSV.foreach(options[:input]) do |row|
     end
     
     timeslip_params = {
-      :dated_on => date,
+      :dated_on => Date.parse(date).strftime("%FT%TZ"), # 2011-08-16T13:32:00Z
       :project_id => codebase_project_id,
       :hours => (minutes.to_i / 60.0),
       :user_id => user_id_map[user],
